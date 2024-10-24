@@ -2,6 +2,12 @@ import Linkedin from "../src/assets/home/footer/linkedin.png"
 import Twitter from "../src/assets/home/footer/twitter.png"
 import Facebook from "../src/assets/home/footer/facebook.png"
 
+import FooterLogo from "../src/assets/home/footer/footer-Logo.svg"
+
+import footerContact1 from "../src/assets/home/footer/fot1.png"
+import footerContact2 from "../src/assets/home/footer/fot2.png"
+import footerContact3 from "../src/assets/home/footer/fot3.png"
+
 const Footer = () => {
   return (
     <>
@@ -10,7 +16,7 @@ const Footer = () => {
             <div className="row">
                 <div className="footer-logo-ng-copy-rights-wrap">
                     <div className="footer-logo">
-                        <img src="../src/assets/home/footer/footer-Logo.svg" alt="" />
+                        <img src={FooterLogo} alt="" />
                     </div>
 
                     <h4 className="copy-rights">
@@ -29,7 +35,7 @@ const Footer = () => {
                 <ul className="footer-contact-detail">
                     <li>
                         <div className="footer-contact-img">
-                          <img src="../src/assets/home/footer/footer-contact-img.svg" alt="" />
+                          <img src={footerContact1} alt="" />
                         </div>
                         <div className="footer-contact-cont">
                             <span>Emergency Call</span>
@@ -40,7 +46,7 @@ const Footer = () => {
                     </li>
                     <li>
                         <div className="footer-contact-img">
-                          <img src="../src/assets/home/footer/footer-contact-img.svg" alt="" />
+                          <img src={footerContact2} alt="" />
                         </div>
                         <div className="footer-contact-cont">
                             <span>Emergency Call</span>
@@ -51,7 +57,7 @@ const Footer = () => {
                     </li>
                     <li>
                         <div className="footer-contact-img">
-                          <img src="../src/assets/home/footer/footer-contact-img.svg" alt="" />
+                          <img src={footerContact3} alt="" />
                         </div>
                         <div className="footer-contact-cont">
                             <span>Emergency Call</span>
