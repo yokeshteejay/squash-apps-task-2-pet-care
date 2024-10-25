@@ -1,0 +1,284 @@
+
+/* .page3-wrap a{
+    color: black;
+    text-decoration: none;
+}
+.page3-wrap a:hover{
+    color: white;
+} */
+
+
+.home3-header{
+    background-color: #00272b;
+    color: white;
+    padding: 1.3rem 0rem;
+}
+
+.home3-header-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home3-header-nav-options{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Home-3-banner-sec{
+    background: url("../src/assets/home-3/header/banner-main-img.png");
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    height: 900px;
+    color: white;
+    position: relative;
+
+}
+
+@media (max-width:1400px) {
+    .Home-3-banner-sec{
+    background-size: cover;
+    background-position : right;
+    }
+}
+
+.Home-3-banner-content-wraper{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 600px;
+    max-width: 80%;
+}
+
+.Home-3-banner-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 86px;
+}
+
+.Home-3-banner-main-tit b{
+    color: #ff6900;
+}
+
+.primary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: #ff6900;
+    display: grid;
+    color: white;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: background-color 0.4s ease-in-out ;
+ }
+
+ .primary-btn:hover{
+    background-color: white;
+    border: 1px solid #ff6900;
+    color: #ff6900;
+ }
+
+ .secondary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: transparent;
+    display: grid;
+    color: white;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: background-color 0.4s ease-in-out ;
+ }
+
+.secondary-btn:hover{
+    background-color: #ff6900;
+    border: 1px solid #ff6900;
+    color: white;
+ }
+
+ .banner-btn-wraper{
+    display: flex;
+    gap: 30px;
+ }
+
+ .About-DC-Care-cont-mini-tit , .home3-What-We-Offer-mini-tit , .Home3-The-pets-lives-day-mini-tit{
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 44px;
+ }
+
+.About-DC-Care-cont-mini-tit > b , .home3-What-We-Offer-mini-tit > b , .Home3-The-pets-lives-day-mini-tit > b{
+     color: #ff6900;
+}
+
+.About-DC-Care-cont-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    margin: 30px 0px;
+}
+
+.home3-What-We-Offer-main-tit , .Home3-The-pets-lives-day-main-tit{
+    font-family: "Nunito", serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+    color: black;
+}
+
+.home3-What-We-Offer-main-tit > b , .Home3-The-pets-lives-day-main-tit > b{
+    color: #ff6900;
+}
+
+.About-DC-Care-cont-wrap{
+    padding: 5rem 0rem;
+
+}
+
+.About-DC-Care-cont-main-tit > b{
+    color:#ff6900;
+}
+
+.About-DC-Care-sec{
+    padding: 3rem 0rem;
+}
+
+.About-DC-Care-sec .secondary-btn{
+    border: 1px solid #ff6900;
+    color: #ff6900;
+}
+
+.About-DC-Care-sec .secondary-btn:hover{
+    border: 1px solid #ff6900;
+    color: white;
+    background-color: #ff6900;
+}
+
+.home3-What-We-Offer-card-tit{
+    font-family: "Nunito", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    margin: 20px 0px 30px;
+}
+
+.home3-What-We-Offer-card{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ff6900;
+    border-radius: 50px 0px 50px 0px;
+    transition: border-radius 0.5s ease-in-out , background 0.5s ease-in-out ;
+    transform: rotateY(0deg);
+    margin-top: 30px;
+}
+
+.home3-What-We-Offer-card:hover{
+    border-radius: 60px;
+    background-color: #ff6900;
+    color: white;
+}
+
+.home3-What-We-Offer-card:hover p{
+    color: white;
+}
+
+.home3-What-We-Offer-card:hover .home3-What-We-Offer-card-icon{
+    background: white;
+    transform: rotateY(180deg);
+}
+
+.home3-What-We-Offer-card:hover .home3-What-We-Offer-card-icon img{
+    filter: brightness(0) saturate(100%) invert(41%) sepia(54%) saturate(2100%) hue-rotate(1deg) brightness(103%) contrast(104%);
+}
+
+.home3-What-We-Offer-sec{
+    padding: 4rem 0rem;
+    background-color: #f1f1f1;
+}
+
+.home3-What-We-Offer-tit-wraper{
+     width: 60%;
+     margin: 0rem auto;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.home3-What-We-Offer-card-icon img{
+    /* filter: brightness(0) saturate(100%) invert(41%) sepia(54%) saturate(2100%) hue-rotate(1deg) brightness(103%) contrast(104%); */
+}
+
+.home3-What-We-Offer-card-icon{
+    background: linear-gradient( 90deg , #d15700 50% ,  #ff6900 50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transition:  transform 0.2s ease-in-out; 
+}
+
+.Home3-The-pets-lives-day-sec{
+    padding: 4rem 0rem;
+}
+
+.Home3-The-pets-lives-day-sec  .secondary-btn{
+    width: 129px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 30px 0px 30px 0px;
+    background-color: transparent;
+    display: grid;
+    color: #d15700;
+    place-content: center;
+    text-decoration: none;
+    border: 1px solid #d15700;
+    transition: background-color 0.4s ease-in-out ;
+ }
+
+ .Home3-The-pets-lives-day-cont-wrap{
+    padding: 3rem 0rem;
+ }
+
+.Home3-The-pets-lives-day-sec  .secondary-btn:hover{
+    background-color: #d15700;
+    color: white;
+}
+
+.Image-Tour-img-wrap-col-1{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Image-Tour-sec{
+    padding: 3rem 0rem;
+}

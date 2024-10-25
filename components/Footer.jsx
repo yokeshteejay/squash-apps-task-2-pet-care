@@ -14,6 +14,7 @@ const Footer = () => {
     <footer>
         <div className="container">
             <div className="row">
+                <div className="col-md-12">
                 <div className="footer-logo-ng-copy-rights-wrap">
                     <div className="footer-logo">
                         <img src={FooterLogo} alt="" />
@@ -74,7 +75,7 @@ const Footer = () => {
                     <img src={Facebook} alt="" />
                 </div>
                 </div>
- 
+                </div>
                 
             </div>
         </div>

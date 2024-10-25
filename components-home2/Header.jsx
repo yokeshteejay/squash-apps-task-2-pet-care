@@ -1,10 +1,9 @@
-import Logo from "../src/assets/home/banner-and-header/logo.png"
-// import '../styles/style.css'
+import Logo from "../src/assets/home-2/header/Logo.png"
 
 const Header = () => {
   return (
     <>
-    <header>
+     <header>
         <div className="container">
             <div className="row">
                 <div className="logo-nav-appointment">
@@ -22,7 +21,7 @@ const Header = () => {
                     </ul>
 
                     <a className="header-btn" href="#">
-                    Get Appointment
+                    Adopt Now
                     </a>
                 </div>
             </div>

@@ -9,10 +9,12 @@ import ClientsFeedback from "../components/ClientsFeedback"
 import SubscribeNewsletter from "../components/SubscribeNewsletter"
 import BlogSec from "../components/blogSec"
 import Footer from "../components/Footer"
+import '../styles/style.css'
 
 const Home = () => {
   return (
     <>
+    <div className="page1-wrap">
     <Header />
     <HomeBanner />
     <AboutUsSec />
@@ -23,6 +25,7 @@ const Home = () => {
     <SubscribeNewsletter />
     <BlogSec />
     <Footer />
+    </div>
     </>
   )
 }

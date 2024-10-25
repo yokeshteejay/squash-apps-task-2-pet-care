@@ -1,10 +1,18 @@
 :root{
     --primary:#711db0;
     --secondary: #da0c81;
+    --primary1: #65b741;
+    --secondary1: #0ca9ff;
 }
 
 
 body{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    color: black;
+}
+
+p{
     font-family: "Nunito Sans", serif;
     font-size: 16px;
     color: black;
@@ -25,7 +33,7 @@ a{
     color: black;
 }
 
-header{
+.page1-wrap header{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -52,7 +60,7 @@ header{
     align-items: center;
 }
 
-.header-btn{
+.page1-wrap .header-btn{
     max-width: 182px;
     width: 30%;
     display: grid;
@@ -69,13 +77,13 @@ header{
     transition:  0.4s ease ;
 }
 
-.header-btn:hover{
+.page1-wrap .header-btn:hover{
     color: black;
     background-color: white;
     border: 1px solid var(--primary);
 }
 
-.home-banner-sec{
+.page1-wrap .home-banner-sec{
     height: 1000px;
     max-height: 967px;
     background: url("../src/assets/home/banner-and-header/home-banner.png");
@@ -302,15 +310,21 @@ header{
     width: 169px;
     height: 54px;
     background-color: var(--secondary);
+    color: white;
     border-radius: 10px;
     display: grid;
     place-content: center;
     padding: 1rem 2rem 1rem 1rem;
-    color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 800;
     line-height: 26px;
+}
+
+.get-every-pet-foods-btn:hover{
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid var(--primary);
 }
 
 .get-every-pet-foods-btn::before{
@@ -365,6 +379,10 @@ header{
     padding: 100px 138px;
     text-align: center;
     gap: 30px;
+}
+
+.get-every-pet-foods-cont p{
+    color: white;
 }
 
 .get-every-pet-foods-img{
@@ -898,4 +916,3 @@ footer{
     color: white;
     /* height: 438px; */
 }
-
